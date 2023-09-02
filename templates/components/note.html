@@ -1,0 +1,15 @@
+<div class="card">
+    <h3 class="card-title">{title}</h3>
+      <a href="delete/{id}" class="position-trash">
+        <img src="https://img.icons8.com/?size=512&id=48507&format=png" class="trash-icon"/>
+      </a>
+    <form method="post" action="/edit">
+      <input type="hidden" name="id" value="{id}">
+      <button class="position-edit" type="submit">
+        <img src="https://img.icons8.com/?size=512&id=86376&format=png" class="edit-icon"/>
+      </button>
+    </form>
+    <div class="card-content"><p>{details}
+      </p>
+    </div>
+  </div>
